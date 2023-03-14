@@ -4,7 +4,7 @@
 #
 Name     : R-ggrepel
 Version  : 0.9.3
-Release  : 8
+Release  : 9
 URL      : https://cran.r-project.org/src/contrib/ggrepel_0.9.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ggrepel_0.9.3.tar.gz
 Summary  : Automatically Position Non-Overlapping Text Labels with
@@ -23,9 +23,6 @@ BuildRequires : R-rlang
 BuildRequires : R-scales
 BuildRequires : R-withr
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 overlapping text labels. Labels repel away from each other and away from the
@@ -57,10 +54,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1675442563
+export SOURCE_DATE_EPOCH=1678821692
 
 %install
-export SOURCE_DATE_EPOCH=1675442563
+export SOURCE_DATE_EPOCH=1678821692
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-ggrepel
 cp %{_builddir}/ggrepel/LICENSE %{buildroot}/usr/share/package-licenses/R-ggrepel/12d81f50767d4e09aa7877da077ad9d1b915d75b || :
