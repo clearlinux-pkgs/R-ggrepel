@@ -4,7 +4,7 @@
 #
 Name     : R-ggrepel
 Version  : 0.9.3
-Release  : 11
+Release  : 12
 URL      : https://cran.r-project.org/src/contrib/ggrepel_0.9.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ggrepel_0.9.3.tar.gz
 Summary  : Automatically Position Non-Overlapping Text Labels with
